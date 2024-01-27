@@ -1,10 +1,9 @@
-import Post from "./components/Post";
+import PostsList from "./components/PostsList";
 
 function App() {
   return (
     <main>
-      <Post author="Kim" body="React.js is awesome!" />
-      <Post author="Yi" body="Check out the full course!" />
+      <PostsList />
     </main>
   );
 }
